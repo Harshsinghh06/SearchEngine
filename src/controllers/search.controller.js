@@ -1,5 +1,5 @@
-const catalogService = require("../services/catalog.service");
-const rankingService = require("../services/ranking.service");
+const catalogService = require("../services/catalog.services");
+const rankingService = require("../services/ranking.services");
 const queryParser = require("../utils/queryParser");
 
 exports.searchProducts = (req, res) => {

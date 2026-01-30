@@ -1,4 +1,4 @@
-const catalogService = require("../services/catalog.service");
+const catalogService = require("../services/catalog.services");
 
 exports.addProduct = (req, res) => {
   try {
